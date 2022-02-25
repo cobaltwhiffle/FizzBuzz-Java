@@ -15,14 +15,8 @@ public class FizzBuzz {
       } else if (i % 5 == 0){
         System.out.println("Buzz");
         
-//Now check for numbers not divisble by 3 or 5, or both, and print the numbers 
-      } else if (i % 3 != 0 && i % 5 != 0){
-        System.out.println(i);
-        
-      } else if (i % 3 != 0){
-        System.out.println(i);
-        
-      } else if (i % 5 != 0){
+//Now print all other numbers 
+      } else {
         System.out.println(i);
       }
     }
